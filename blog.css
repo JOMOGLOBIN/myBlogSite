@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background-image: url(webb-dark.png);
+  background-repeat: repeat;
+}
+
+.top-navigation {
+  background-color: #081c15;
+  padding: 10px;
+  align-items: center;
+}
+
+li {
+  display: inline;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: seashell;
+}
+
+li:hover {
+  color: antiquewhite;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.main {
+text-align: center;
+margin-top: 50px;
+}
+
+ .main h1 {
+  color: seashell;
+  font-size: 40px;
+}
+
+.main p {
+  color: seashell;
+  font-size: 22px;
+}
